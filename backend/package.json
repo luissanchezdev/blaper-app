@@ -1,12 +1,23 @@
 {
-  "name": "new-blaper",
+  "name": "blaper-app-chatbot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend de Blaper App",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5",
+    "multer": "^1.4.3",
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
