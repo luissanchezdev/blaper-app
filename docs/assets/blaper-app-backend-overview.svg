@@ -1,0 +1,39 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Blaper App backend overview</title>
+  <desc id="desc">Overview image for an early Express and MongoDB backend scaffold for Blaper App.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#581c87"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="34" fill="url(#bg)"/>
+  <circle cx="990" cy="130" r="210" fill="#c084fc" opacity="0.17"/>
+  <circle cx="175" cy="610" r="250" fill="#60a5fa" opacity="0.12"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="82" y="112" fill="#faf5ff" font-size="44" font-weight="900">Blaper App Backend</text>
+    <text x="82" y="160" fill="#e9d5ff" font-size="23">Express + MongoDB scaffold for auth, companies, uploads and chat</text>
+    <rect x="82" y="230" width="1036" height="330" rx="30" fill="#ffffff" opacity="0.1" stroke="#d8b4fe"/>
+    <g transform="translate(135 300)">
+      <rect width="210" height="130" rx="24" fill="#1f2937" stroke="#a78bfa"/>
+      <text x="32" y="55" fill="#f5f3ff" font-size="23" font-weight="800">Auth</text>
+      <text x="32" y="88" fill="#ddd6fe" font-size="17">JWT + bcrypt</text>
+    </g>
+    <g transform="translate(380 300)">
+      <rect width="210" height="130" rx="24" fill="#1f2937" stroke="#a78bfa"/>
+      <text x="32" y="55" fill="#f5f3ff" font-size="23" font-weight="800">Companies</text>
+      <text x="32" y="88" fill="#ddd6fe" font-size="17">Mongoose models</text>
+    </g>
+    <g transform="translate(625 300)">
+      <rect width="210" height="130" rx="24" fill="#1f2937" stroke="#a78bfa"/>
+      <text x="32" y="55" fill="#f5f3ff" font-size="23" font-weight="800">Uploads</text>
+      <text x="32" y="88" fill="#ddd6fe" font-size="17">Multer middleware</text>
+    </g>
+    <g transform="translate(870 300)">
+      <rect width="210" height="130" rx="24" fill="#1f2937" stroke="#a78bfa"/>
+      <text x="32" y="55" fill="#f5f3ff" font-size="23" font-weight="800">Chat</text>
+      <text x="32" y="88" fill="#ddd6fe" font-size="17">OpenAI/axios service</text>
+    </g>
+    <text x="82" y="650" fill="#e9d5ff" font-size="17">Current state: dependencies install, but source files are empty scaffolds and no server is launched.</text>
+  </g>
+</svg>
